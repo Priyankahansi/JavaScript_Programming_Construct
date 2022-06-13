@@ -1,24 +1,20 @@
-switch (new Date().getDay()) {
-    case 0:
-      day = "Sunday";
-      break;
-    case 1:
-      day = "Monday";
-      break;
-    case 2:
-       day = "Tuesday";
-      break;
-    case 3:
-      day = "Wednesday";
-      break;
-    case 4:
-      day = "Thursday";
-      break;
-    case 5:
-      day = "Friday";
-      break;
-    case 6:
-      day = "Saturday";
-      default:
-        day = "Sunday";
-  }
+let num = Math.floor(Math.random() *10);
+
+if(num == 1){
+    console.log("Monday")
+}else if(num == 2){
+    console.log("Tuesday")
+}else if(num == 3){
+    console.log("wednesday")
+}else if(num == 4){
+    console.log("Thursday")
+}else if(num == 5){
+    console.log("Friday")
+}else if(num == 6){
+    console.log("Saturday")
+}else if(num == 7){
+    console.log("Sunday")
+}
+ else{
+    console.log("Invalid Value")
+}
